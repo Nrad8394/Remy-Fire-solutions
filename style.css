@@ -1,0 +1,46 @@
+.profile{
+    background-color: rgb(139, 2, 2);
+    color: white;
+}
+li{
+    /* removes list styling */
+    list-style: none; 
+}
+.icon {
+   
+    transition: all 0.3s ease; /* 0.3 seconds duration with ease timing function for a smooth transition */
+}
+a{
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;
+}
+.f:hover{
+    color: blue;
+}
+.t:hover{
+    color: rgb(18, 18, 237);
+}
+.i:hover{
+    color: rgb(255, 0, 174);
+}
+.y:hover {
+    color: rgb(3, 214, 197);
+}
+button{
+    background-color: rgb(139, 2, 2);
+    color: white;
+   
+
+}
+input{
+    border: none;
+    outline: none;
+    width: 90%;
+}
+.search_bar{
+    border: 1px grey solid;
+    width: 90%;
+}
